@@ -20,6 +20,12 @@
 		
 		<div id="content">
 		
+		<!-- put new button: Add Customer -->
+		
+		<input type="button" value="Add Customer"
+				onclick="window.location.href='showFormForAdd'; return false;"
+		/>
+		
 			<!--  add in html table here -->
 			
 			<table>
