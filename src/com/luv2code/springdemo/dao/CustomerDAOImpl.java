@@ -58,7 +58,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		Customer theCustomer = currentSession.get(Customer.class, theId);
 		
 
-		return null;
+		return theCustomer;
 	}
 
 }
